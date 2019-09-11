@@ -1,0 +1,11 @@
+Step 1: run startup.m: set up search paths
+Step 2: run UMISTcompare.m or FGNETcompare.m 
+
+For UMISTdataset, we should run UMISTcompare.m to compare the performance of the methods LDMLR and cMDS-DML.
+For FG-NETdataset, we should run FGNETcompare.m to compare the performance of the methods LDMLR and cMDS-DML.
+
+cMDS_DML: save the code of the method cMDS_DML, and cMDS_DML.m in it is the main code for training and testing.
+LDMLR: save the code of the method LDMLR, and LDMLR.m in it is the main code for training and testing.
+
+UMISTdateset: save the data and its label of UMIST image dataset. UMIST in it is downloaded on website. UMISTdata.csv and UMISTlabel.csv are reprocessed by us.
+FGNETdateset: save the data and its label of FG-NET image dataset. FGNET in it is downloaded on website. FGNETdata.csv and FGNETlabel.csv are reprocessed by us.
